@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PLeakSniffer_Example' do
+  pod 'PLeakSniffer', :path => '../'
+
+  target 'PLeakSniffer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
