@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #   'PLeakSniffer' => ['PLeakSniffer/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/PLeakSniffer/PLeakSniffer.h'
+  s.public_header_files = 'PLeakSniffer/Classes/PLeakSniffer.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
