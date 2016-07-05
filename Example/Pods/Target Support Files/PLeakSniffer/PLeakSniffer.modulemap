@@ -1,0 +1,6 @@
+framework module PLeakSniffer {
+  umbrella header "PLeakSniffer-umbrella.h"
+
+  export *
+  module * { export * }
+}

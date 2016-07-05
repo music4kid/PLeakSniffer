@@ -20,6 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		67EFC8EE1D2B655A00A52A8D /* PLeakingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EFC8ED1D2B655A00A52A8D /* PLeakingController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A1E9299818C015E52FD9FD2E /* Pods_PLeakSniffer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A119D5BB589F0FF2D7421FF9 /* Pods_PLeakSniffer_Tests.framework */; };
 		D826DA09257AC62197CF832A /* Pods_PLeakSniffer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6617C57EC126CAD9D00FDE96 /* Pods_PLeakSniffer_Example.framework */; };
@@ -59,6 +60,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6617C57EC126CAD9D00FDE96 /* Pods_PLeakSniffer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PLeakSniffer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EFC8EC1D2B655A00A52A8D /* PLeakingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLeakingController.h; sourceTree = "<group>"; };
+		67EFC8ED1D2B655A00A52A8D /* PLeakingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLeakingController.m; sourceTree = "<group>"; };
 		7C5C980A36C93E0AA1AE3D63 /* Pods-PLeakSniffer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLeakSniffer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLeakSniffer_Example/Pods-PLeakSniffer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8FB832CA568C5D6D108051CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PLeakViewController.h */,
 				6003F5A6195388D20070C39A /* PLeakViewController.m */,
+				67EFC8EC1D2B655A00A52A8D /* PLeakingController.h */,
+				67EFC8ED1D2B655A00A52A8D /* PLeakingController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -392,6 +397,7 @@
 			files = (
 				6003F59E195388D20070C39A /* PLeakAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PLeakViewController.m in Sources */,
+				67EFC8EE1D2B655A00A52A8D /* PLeakingController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

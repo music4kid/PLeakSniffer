@@ -1,0 +1,22 @@
+{
+  "name": "PLeakSniffer",
+  "version": "0.1.0",
+  "summary": "PLeakSniffer should be used as a suggesting tool to detect possible memory leaks",
+  "description": "since we are building controllers most of the time, memory leaks happen within controllers.\nretain cycle stops controller from being released, UIView objects within controllers somehow\nget held by other objects, PLeakSniffer shows its value in such circumstances, it provides\nsuggestions, but guarantees nothing. it is your duty to set a breakpoint in the suspicous object's\ndealloc, and reveal the only truth.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PLeakSniffer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gao feng": "1197902291@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PLeakSniffer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source_files": "PLeakSniffer/Classes/**/*"
+}

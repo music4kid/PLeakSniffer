@@ -1,0 +1,6 @@
+framework module Pods_PLeakSniffer_Example {
+  umbrella header "Pods-PLeakSniffer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

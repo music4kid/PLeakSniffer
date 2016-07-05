@@ -1,0 +1,16 @@
+PODS:
+  - PLeakSniffer (0.1.0)
+
+DEPENDENCIES:
+  - PLeakSniffer (from `../`)
+
+EXTERNAL SOURCES:
+  PLeakSniffer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PLeakSniffer: 92d626b633ebe95ceff67405a414a887673d524f
+
+PODFILE CHECKSUM: 10f235f51341fbf9f2223b17a8505b11f613b3a3
+
+COCOAPODS: 1.0.0

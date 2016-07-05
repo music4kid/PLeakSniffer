@@ -7,11 +7,14 @@
 //
 
 #import "PLeakAppDelegate.h"
+#import <PLeakSniffer/PLeakSniffer.h>
 
 @implementation PLeakAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[PLeakSniffer sharedInstance] installLeakSniffer];
+    
     // Override point for customization after application launch.
     return YES;
 }
