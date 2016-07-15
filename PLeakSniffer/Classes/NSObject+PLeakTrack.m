@@ -152,7 +152,7 @@
         if ([typeName isEqualToString:@"T@\"PObjectProxy\""] ||
             [typeName hasPrefix:@"T@\"UI"] ||
             [typeName hasPrefix:@"T@\"NS"] ||
-            [typeName containsString:@"KVO"]) {
+            [typeName rangeOfString:@"KVO"].location != NSNotFound) {
             continue;
         }
         
