@@ -29,7 +29,7 @@
     [watchedProperties addObjectsFromArray:l1Properties];
     
     //track class level2
-    NSString* superClassName = NSStringFromClass([self class]);
+    NSString* superClassName = NSStringFromClass([self superclass]);
     if ([superClassName hasPrefix:@"UI"] == false &&
         [superClassName hasPrefix:@"NS"] == false &&
         [superClassName hasPrefix:@"_"] == false)
